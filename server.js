@@ -18,7 +18,7 @@ server.use((err, req, res, next) => {
 })
 
 server.get('/', (req, res) => {
-    res.send(`<h2>Welcome to Charlene's Sprint Challenge!</h2>`)
+    res.send(`<h2> Back end API running</h2>`)
 })
 
 server.listen(port, () => {
